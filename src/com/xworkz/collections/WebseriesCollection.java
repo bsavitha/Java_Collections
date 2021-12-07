@@ -1,13 +1,14 @@
 package com.xworkz.collections;
-
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 public class WebseriesCollection {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Collection collection = new ArrayList();
+		List<String> collection = new ArrayList();
 
 		collection.add("hindi");
 		collection.add("english");
