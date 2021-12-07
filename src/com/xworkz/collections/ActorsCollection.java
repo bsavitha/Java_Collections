@@ -1,12 +1,15 @@
 package com.xworkz.collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 public class ActorsCollection {
 
 	public static void main(String[] args) {
-		Collection collection = new ArrayList();
+		List<String> collection = new ArrayList();
+
 
 		collection.add("vijay");
 		collection.add("ajith");
@@ -70,6 +73,22 @@ public class ActorsCollection {
 		collection.add("anuska sharma");
 
 		System.out.println(collection.size());
+				int lastIndex = 60;
+		int firstIndex = 0;
+		int mid = firstIndex + (lastIndex - firstIndex) / 2;
+		System.out.println("Middle element is at index :");
+		System.out.println(mid);
+
+		if (mid == mid && mid < collection.size()) {
+			System.out.println("Middle element present ? : ".concat(String.valueOf(collection.contains(mid))));
+			 System.out.println("Removing.. " .concat(String.valueOf(collection.remove(mid) +" from index : " .concat(String.valueOf(mid)))));
+		}
+		
+		System.out.println("Displaying...........");
+		for (int i = 0; i < collection.size(); i++) {
+			System.out.println(i);
+
+		}
 
 	}
 
