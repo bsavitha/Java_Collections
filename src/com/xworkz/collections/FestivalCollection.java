@@ -87,7 +87,7 @@ public class FestivalCollection {
 		
 		System.out.println("Displaying...........");
 		for (int i = 0; i < collection.size(); i++) {
-			//System.out.println(collection.indexOf(30));
+
 			System.out.println(i);
 
 		}
