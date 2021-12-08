@@ -73,7 +73,7 @@ public class ActorsCollection {
 		collection.add("anuska sharma");
 
 		System.out.println(collection.size());
-				int lastIndex = 60;
+		int lastIndex = 60;
 		int firstIndex = 0;
 		int mid = firstIndex + (lastIndex - firstIndex) / 2;
 		System.out.println("Middle element is at index :");
